@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "29d999cf-4594-4c7b-b65a-ab8e96112be7",
+		"name": "Movie_task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "original",
+			"item": [
+				{
+					"name": "latest",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.themoviedb.org/3/movie/latest?api_key=6c8b3d76908358d1d6e246277e3fd0b5&language=en-US",
+							"protocol": "https",
+							"host": [
+								"api",
+								"themoviedb",
+								"org"
+							],
+							"path": [
+								"3",
+								"movie",
+								"latest"
+							],
+							"query": [
+								{
+									"key": "api_key",
+									"value": "6c8b3d76908358d1d6e246277e3fd0b5"
+								},
+								{
+									"key": "language",
+									"value": "en-US"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "top-rated",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.themoviedb.org/3/movie/top_rated?api_key=6c8b3d76908358d1d6e246277e3fd0b5&language=en-US&page=1",
+							"protocol": "https",
+							"host": [
+								"api",
+								"themoviedb",
+								"org"
+							],
+							"path": [
+								"3",
+								"movie",
+								"top_rated"
+							],
+							"query": [
+								{
+									"key": "api_key",
+									"value": "6c8b3d76908358d1d6e246277e3fd0b5"
+								},
+								{
+									"key": "language",
+									"value": "en-US"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "genre",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.themoviedb.org/3/movie/top_rated?api_key=6c8b3d76908358d1d6e246277e3fd0b5&language=en-US",
+							"protocol": "https",
+							"host": [
+								"api",
+								"themoviedb",
+								"org"
+							],
+							"path": [
+								"3",
+								"movie",
+								"top_rated"
+							],
+							"query": [
+								{
+									"key": "api_key",
+									"value": "6c8b3d76908358d1d6e246277e3fd0b5"
+								},
+								{
+									"key": "language",
+									"value": "en-US"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/top_rated?api_key=6c8b3d76908358d1d6e246277e3fd0b5&language=en-US&page=1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"top_rated"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "6c8b3d76908358d1d6e246277e3fd0b5"
+						},
+						{
+							"key": "language",
+							"value": "en-US"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
